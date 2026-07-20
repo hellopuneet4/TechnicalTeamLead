@@ -1,3 +1,4 @@
+//It’s a high‑priority Service Bus topic handler that deserializes the message, verifies the priority, processes the order, saves it, and logs every step with full error handling and correlation tracking.
 using System;
 using System.Text.Json;
 using System.Threading.Tasks;
